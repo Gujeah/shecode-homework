@@ -63,9 +63,8 @@ main {
   margin-left: 10px;
 }
 .icon {
-  font-size: 44px;
-  margin-top: 22px;
-  margin-left: 10px;
+  width: 80px;
+  height: 80px;
 }
 .unit {
   margin-top: 16px;
