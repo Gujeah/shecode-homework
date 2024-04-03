@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -29,7 +30,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="wather-city" id="city">Paris</h1>
+            <h1 class="wather-city" id="city"></h1>
 
             <p class="weather-details">
               Tuesday 14:49 scattered clouds<br />
@@ -38,7 +39,7 @@
           </div>
           <div class="weather-app-temperature">
             <div class="icon">🌤</div>
-            <div class="temperature-value">12</div>
+            <div class="temperature-value" id="weather-temperature"></div>
             <div class="unit">&deg;C</div>
           </div>
         </div>
