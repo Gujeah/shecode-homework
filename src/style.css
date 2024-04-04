@@ -93,11 +93,11 @@ a {
   color: #f65282;
 }
 .weather-forecast-temperature {
-  padding: 0 8px;
+  padding: 0 6px;
 }
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 100%;
+  /* text-align: center; */
 }
 footer {
   border-bottom: 1px solid #f9f7fe;
